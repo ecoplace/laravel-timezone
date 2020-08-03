@@ -40,6 +40,8 @@ return [
 
     'format' => 'jS F Y g:i:a',
 
+    'default_display_timezone' => 'UTC',
+
     /*
     |--------------------------------------------------------------------------
     | Lookup Array

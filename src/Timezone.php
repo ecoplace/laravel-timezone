@@ -18,7 +18,7 @@ class Timezone
             return 'Empty';
         }
 
-        $timezone = (auth()->user()->timezone) ?? config('app.timezone');
+        $timezone = (auth()->user()->timezone) ?? config('timezone.default_display_timezone');
 
         $date->setTimezone($timezone);
 
